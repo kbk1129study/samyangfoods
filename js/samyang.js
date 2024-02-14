@@ -3,6 +3,7 @@ $(function () {
     /* 네비게이션 메뉴 제어 스크립트
     - 사용자가 메뉴에 마우스 올렸을때 하위 메뉴 활성화
     - 벗어났을때 비활성화 */
+    
     let wrap = $('.gnbWrap');
     let menu = $('.gnbWrap > ul.gnb>li');
     // 각 페이지의 url주소 문자열을 그대로 가져옴
@@ -94,8 +95,6 @@ $(function () {
         }, 400);
     });
 
-
-    
 
     // 인디케이터 
     var slides = $(".product-new  ul  li"); // 슬라이드 이미지
